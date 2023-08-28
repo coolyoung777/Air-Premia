@@ -1,0 +1,82 @@
+@import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard-dynamic-subset.css');
+
+
+
+/******* *******/
+
+:root {
+  /* colors*/
+  --primary-1: #ff5800;
+  --primary-2: #f45300;
+  --primary-button: #ff7134;
+
+  /* background color */
+ --bg-primary: #ffff;
+ --bg-ticketsuccess:#1b2b45;
+
+  /* text color */
+
+ --text-nomal: #2a2a2a;
+ --text-body:#6b6b6b;
+
+  /* button text color */
+
+ --blue-subcolor:#71afe2;
+
+
+  /* --primary-right: 
+  --primary-normal:
+  --primary-strong:
+  --primary-heavy:
+
+  --status-alert:
+  --status-caution
+  --status-position
+
+  --text-strong:
+  --text-normal:
+  --text-alternative:
+  --text-disable: */
+
+/******* Reset Style Code*******/
+
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body{
+    font-family: "Pretendard", sans-serif;
+    background: var(--bg-primary);
+    color:var(--tex-normal);
+
+  }
+
+  ol, ul{
+    list-style: none;
+  }
+
+  a{
+    color: inherit;
+    text-decoration: none;
+  }
+
+  em, strong, i, b{
+    font-style: normal;
+    font-weight: normal; 
+  }
+
+  img{
+    display: block;
+  }
+
+  input, textarea, button, select,
+  input::placeholder, textarea::placeholder{
+    border: none;
+    color: inherit;
+    font-family: "Pretendard", sans-serif;
+    background: var(--bg-primary);
+    outline: 0;
+  }
+}
